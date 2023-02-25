@@ -9,7 +9,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 //import { RouterModule, Routes } from '@angular/router';
 // import { HeaderComponent } from './shared/header/header.component';
 // import { FooterComponent } from './shared/footer/footer.component';
-// import { UiModule } from '@bluebits/ui';
+import { UiModule } from '@bluebits/ui';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -24,7 +24,7 @@ const routes: Routes = [
     HeaderComponent,
     FooterComponent,
   ],
-  imports: [BrowserModule, RouterModule.forRoot(routes)],
+  imports: [BrowserModule, UiModule, RouterModule.forRoot(routes)],
   providers: [],
   bootstrap: [AppComponent],
 })
