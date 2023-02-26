@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'bluebits-shell',
+  selector: 'admin-shell',
   templateUrl: './shell.component.html',
   // styleUrls: ['./shell.component.scss']
 })
